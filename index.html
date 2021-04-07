@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+    <link rel="icon" href="me.jpeg" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Amanda Quach's Journal</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#entires">Entries</a></li>
+                <li><a href="#create">Create</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="about"></h2>
+        <section>
+            <div style="background-color:beige;color: black;padding:20px;">
+                <h2>About This Page</h2>
+                <p>This webpage is going to contain: </p>
+                <ul>
+                    <li>highlights and lowlights of my day</li>
+                    <li>tasks that I need to complete</li>
+                    <li>paragraph of me venting</li>
+                    <li>pictures I found interesting or funny that day</li>
+                    <li>video of me doing something random</li>
+                </ul>
+            </div>   
+        </section>
+
+        <h2 id="entries"></h2>
+        <section>
+            <div style="background-color:beige;color: black;padding:20px;">
+                <h2>My Journal Entires</h2>
+                <details>
+                    <summary>April 5, 2021</summary>
+                    My favorite artist at the moment is <b>BLXST</b>, and the song that has been stuck in my head all week is <i>Fck Boys (ft. Russ)</i>.
+                    <br>
+                    <img src="album.jpeg" alt="album" width="90" height=auto>
+                    <audio controls>
+                        <source src="song.mp3" type="audio/ogg">
+                    </audio>
+                </details>
+            <details>
+                <summary>April 6, 2021</summary>
+                <p><b>These are the classes that I had to attend:</b></p>
+                <ol>
+                    <li>CSE 101 Lecture</li>
+                    <li>CSE 140 Lecture</li>
+                    <li>CSE 110 Lecture</li>
+                </ol>
+                After all my classes, I took a <i>nap</i>.
+                I watched the <a href="https://www.youtube.com/watch?v=adLGHcj_fmA&ab_channel=BrunoMars">music video</a> of Bruno Mars' new song.
+                The highlight of my day was watching a <a href="https://www.youtube.com/watch?v=ez0kxGZT0nQ&t=94s&ab_channel=NiemaMoshiri">youtube video</a> of Professor Niema trying some spicy ramen.
+            </details>
+
+            <details>
+                <summary>April 7, 2021</summary>
+                <p><b>These are the classes that I had to attend:</b></p>
+                <ol>
+                    <li>CSE 110 Lab</li>
+                    <li>CSE 140L Lecture</li>
+                </ol>
+                I filmed a TikTok video. Here it is...
+                <br>
+                <video width="320" height="240" controls>
+                    <source src="TikTok.MOV">
+                </video>
+            </details>
+            </div>
+        </section>
+    </main>
+    
+    <hr>
+    <footer>
+        <h3 id="create">Create</h3>
+        
+        <form onsubmit="alert('Added!')">
+            <fieldset>
+                <legend><i>Add a Journal Entry: </i></legend>
+                <label for="date">Date: </label>
+                <input type="date" id="date"/>
+                <br>
+                <label>Time: </label>
+                <input type="radio"/><label>AM</label>
+                <input type="radio"/><label>PM</label>
+                <br>
+                <label>Day of the Week: </label>
+                <input type="checkbox"/><label>Monday</label>
+                <input type="checkbox"/><label>Tuesday</label>
+                <input type="checkbox"/><label>Wednesday</label>
+                <input type="checkbox"/><label>Thursday</label>
+                <input type="checkbox"/><label>Friday</label>
+                <br>
+                <label>Entry: </label>
+                <input type="text" placeholder="Description"/>
+                <br>
+                <button>Submit</button>
+            </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
