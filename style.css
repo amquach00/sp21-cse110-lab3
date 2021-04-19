@@ -17,7 +17,6 @@ header h1 {
     width: 100%;
 }
 .navbar{
-    position: -webkit-sticky;
     position: sticky;
     top:0;
 }
@@ -35,6 +34,7 @@ header h1 {
 }
 .navbar .menu li a:hover{
     color: #B18FCF;
+    font-size: 20px;
 }
 /* About This Page Styling */
 h2 {
@@ -49,9 +49,34 @@ h2 {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+#list li{
+    margin: auto;
+    position: static;
+}
 
 /* Journal Entry Styling */
-
-
-
+#entry1, #entry2, #entry3 {
+    margin: 10px 10px 10px 10px;
+    position: relative;
+}
+#entry1:active, #entry2:active, #entry3:active {
+    background-color: white;
+}
+ol[type="A"] {
+    list-style-type: lower-alpha;
+    background:#2C2C34;
+    color: white;
+}
+div p {
+    color:#2C2C34;
+}
+div > h2 {
+    color:#2C2C34;
+}
+div + h3 {
+    font-style: italic;
+}
+p ~ ul {
+    font-style: initial;
+}
 /* Create Styling */
