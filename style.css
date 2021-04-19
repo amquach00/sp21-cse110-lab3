@@ -36,6 +36,7 @@ header h1 {
     color: #B18FCF;
     font-size: 20px;
 }
+
 /* About This Page Styling */
 h2 {
     text-decoration: underline;
@@ -79,4 +80,31 @@ div + h3 {
 p ~ ul {
     font-style: initial;
 }
+
 /* Create Styling */
+#create {
+    color: white;
+    text-align: center;
+}
+legend {
+    color: #D8D8F6;
+}
+.form {
+    color: white;
+    padding: 15px;
+}
+label {
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+}
+
+/* footer */
+h5 {
+    color: white;
+    text-align: center;
+}
+
+/* Layouts/ Responsiveness */
+
+
+
