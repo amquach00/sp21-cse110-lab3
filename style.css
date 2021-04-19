@@ -1,0 +1,45 @@
+/* Page Sytling */
+body {
+    background-color:#2C2C34;
+    font-family: 'PT Mono', monospace;
+}
+header h1 {
+    color: #D8D8F6;
+    text-align: center;
+}
+
+/* Navigation Bar Styling */
+.navbar{
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+.navbar .menu{
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+}
+.navbar .menu li{
+    list-style: none;
+    display:inline-block;
+}
+.navbar .menu li a{
+    color: white;
+}
+.navbar .menu li a:hover{
+    color: #B18FCF;
+}
+/* About This Page Styling */
+
+
+
+/* Journal Entry Styling */
+
+
+
+/* Create Styling */
