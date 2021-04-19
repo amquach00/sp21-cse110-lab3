@@ -86,6 +86,7 @@
         <form onsubmit="alert('Added!')">
             <fieldset>
                 <legend><i>Add a Journal Entry: </i></legend>
+                <div class="form">
                 <label for="date">Date: </label>
                 <input type="date" id="date"/>
                 <br>
@@ -117,7 +118,7 @@
                     <option value="fri">Friday</option>
                   </select>
                 <br>
-                <label>Mood: </label>
+                <label>Mood:</label>
                 <input type="checkbox"/><label>Happy</label>
                 <input type="checkbox"/><label>Sad</label>
                 <input type="checkbox"/><label>Excited</label>
@@ -126,10 +127,11 @@
                 <label>Entry: </label>
                 <input type="text" placeholder="Description"/>
                 <br>
-                <label>Extra Comments? </label>
+                <label>Extra Comments?</label>
                 <textarea></textarea>
                 <br>
                 <button>Submit</button>
+            </div>
             </fieldset>
         </form>
     </main>
